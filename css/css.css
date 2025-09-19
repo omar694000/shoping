@@ -1062,7 +1062,7 @@ color: white;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
