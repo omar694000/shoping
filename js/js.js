@@ -1,4 +1,13 @@
-         const menuBtn = document.querySelector(".menu-icon span");
+
+
+ // اخفاء شاشة التحميل بعد ما الصفحة تحمل
+    window.onload = function() {
+      document.getElementById("preloader").style.display = "none";
+    }
+
+
+
+const menuBtn = document.querySelector(".menu-icon span");
          const searchBtn = document.querySelector(".search-icon");
          const cancelBtn = document.querySelector(".cancel-icon");
          const items = document.querySelector(".nav-items");
